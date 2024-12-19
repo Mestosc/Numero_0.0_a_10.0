@@ -13,6 +13,12 @@ def comparar_numeros(num_aleatorio, numero_input):
         return False
 
 def mayor_menor(num_aleatorio, numero_input):
+    """
+    Compara si el numero que el usuario introduce es mayor al numero aleatorio ya disponible
+    :param num_aleatorio: el numero aleatorio proporcionado por el programa
+    :param numero_input: el numero del usuario que pasamos por aqui
+    :return: si numero_input es mayor a numero_aleatorio devuelve mayor en caso contrario menor
+    """
     if numero_input>num_aleatorio:
         return "mayor"
     else:
