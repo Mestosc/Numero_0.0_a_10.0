@@ -25,7 +25,7 @@ def mayor_menor(num_aleatorio, numero_input):
         return "menor"
 intentos = 3
 hechos = 0
-segundo_numero_inter = 10
+segundo_numero_inter = 10 # El numero hasta el que queremos saber
 numero_aleatorio = round(random.uniform(0,segundo_numero_inter),1)
 print("Este es un juego de adivinar numeros del 0 al 10, tiene un total de " + str(intentos) + " intentos")
 while hechos<intentos:
