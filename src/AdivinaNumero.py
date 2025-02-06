@@ -23,7 +23,7 @@ def mayor_menor(num_aleatorio, numero_input):
         return "mayor"
     else:
         return "menor"
-intentos = 3
+intentos = 4 # Numero de intentos
 hechos = 0
 segundo_numero_inter = 10 # El numero hasta el que queremos saber
 numero_aleatorio = round(random.uniform(0,segundo_numero_inter),1)
